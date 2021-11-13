@@ -1,0 +1,94 @@
+/*vw vh usage https://www.w3schools.com/cssref/css_units.asp*/
+/*https://www.w3schools.com/cssref/css_selectors.asp*/
+
+body {
+    background-color: #9C835F;
+}
+
+.fontstyle {
+    color: #F9B23D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.player {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.wrapper {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    height: 4.5rem;
+    width: 4.5rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.resizeimg {
+    width: 3.7rem;
+    height: 3.7rem;
+}
+
+.result {  
+    color: white;
+    background-color: #9C835F;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10vw;
+    width: 15vw;
+    transform: rotate(-27.87deg);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    /*z-index buat stack order*/
+}
+
+.subpage-1{
+    position: relative;
+}
+
+.subpage-1 * {
+    vertical-align: middle;
+    padding-right: 1rem;
+}
+
+.rpsgame {
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.vs {
+    color: #BD0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vw;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    position: relative;
+}
+
+.refresh {
+    padding-top: 5rem;
+}
+
+/*ref buat JS innerHTML*/
+h3 {
+    width: 100%;
+    font-size:2vw
+}
